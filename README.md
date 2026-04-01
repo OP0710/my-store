@@ -17,17 +17,17 @@ This project demonstrates a complete shopping flow with product browsing, image 
 
 ---
 
+
 ## 🖼 Screenshots
 
-
 ### 🏠 Homepage
-![Homepage](./public/screenshot1.png)
+![Homepage](./screenshot1.png)
 
 ### 📄 Product Page
-![Product](./public/screenshot2.png)
+![Product](./screenshot2.png)
 
 ### 🛒 Cart Page
-![Cart](./public/screenshot3.png)
+![Cart](./screenshot3.png)
 
 ---
 
