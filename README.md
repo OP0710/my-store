@@ -21,16 +21,16 @@ This project demonstrates a complete shopping flow with product browsing, image 
 
 ### Homepage
 
-my-store/public/screenshot1.png
+my-store/screenshot1.png
 
 ### Product Page
 
-my-store/public/screenshot2.png
+my-store/screenshot2.png
 
 
 ### Cart Page
 
-my-store/public/screenshot3.png
+my-store/screenshot3.png
 
 ---
 
