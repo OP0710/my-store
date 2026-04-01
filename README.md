@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 MyStore – Modern E-Commerce Web App
 
-## Getting Started
+A clean, responsive e-commerce web application built using **Next.js**, **TypeScript**, and **Tailwind CSS**.
+This project demonstrates a complete shopping flow with product browsing, image gallery, cart system, and basic user login.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+* 🏬 Product listing (grid layout)
+* 🔍 Product detail page with **image gallery**
+* 🛍 Add to Cart functionality (localStorage-based)
+* ⚡ “Order Now” quick checkout flow
+* 👤 Simple login system (localStorage)
+* 📦 Orders page (basic UI)
+* 📱 Fully responsive design
+
+---
+
+## 🖼 Screenshots
+
+### Homepage
+
+my-store/public/screenshot1.png
+
+### Product Page
+
+my-store/public/screenshot2.png
+
+
+### Cart Page
+
+my-store/public/screenshot3.png
+
+---
+
+## 🛠 Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **State Management:** React Hooks
+* **Storage:** LocalStorage
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+  product/[id]/
+  cart/
+  login/
+  orders/
+
+components/
+  Navbar.tsx
+  ProductCard.tsx
+
+lib/
+  products.ts
+  cart.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clone the repository:
 
-## Learn More
+```
+git clone https://github.com/op0710/my-store.git
+cd my-store
+```
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run the development server:
 
-## Deploy on Vercel
+```
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open in browser:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000
+```
+
+---
+
+## 🧠 Key Learnings
+
+* Dynamic routing using Next.js App Router
+* Component-based architecture
+* Managing state with React hooks
+* Handling client-side storage (localStorage)
+* Building scalable folder structures
+
+---
+
+## ⚠️ Limitations (Future Improvements)
+
+* No real backend/database yet
+* Authentication is not secure (demo only)
+* Payments are not integrated
+
+---
+
+## 🔮 Future Enhancements
+
+* Backend integration (Supabase / Firebase)
+* Real authentication system
+* Stripe payment integration
+* Order history with database
+* Admin dashboard
+
+---
+
+## 📌 Author
+
+**Naitik Pingal**
+Aspiring Frontend Developer
+
+---
+
+## ⭐ If you like this project
+
+Give it a star on GitHub and feel free to fork it!
