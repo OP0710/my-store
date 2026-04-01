@@ -1,7 +1,7 @@
 # 🛒 MyStore – Modern E-Commerce Web App
 
-A clean, responsive e-commerce web application built using **Next.js**, **TypeScript**, and **Tailwind CSS**.
-This project demonstrates a complete shopping flow with product browsing, image gallery, cart system, and basic user login.
+A responsive and clean e-commerce web application built using **Next.js**, **TypeScript**, and **Tailwind CSS**.
+This project demonstrates a complete shopping experience including product browsing, image gallery, cart system, and basic login functionality.
 
 ---
 
@@ -9,24 +9,26 @@ This project demonstrates a complete shopping flow with product browsing, image 
 
 * 🏬 Product listing (grid layout)
 * 🔍 Product detail page with **image gallery**
-* 🛍 Add to Cart functionality (localStorage-based)
+* 🛍 Add to Cart functionality (localStorage)
 * ⚡ “Order Now” quick checkout flow
-* 👤 Simple login system (localStorage)
-* 📦 Orders page (basic UI)
+* 👤 Basic login system (localStorage-based)
+* 📦 Orders page (UI)
 * 📱 Fully responsive design
 
 ---
 
-
 ## 🖼 Screenshots
 
 ### 🏠 Homepage
+
 ![Homepage](./screenshot1.png)
 
 ### 📄 Product Page
+
 ![Product](./screenshot2.png)
 
 ### 🛒 Cart Page
+
 ![Cart](./screenshot3.png)
 
 ---
@@ -66,7 +68,7 @@ lib/
 Clone the repository:
 
 ```
-git clone https://github.com/op0710/my-store.git
+git clone https://github.com/OP0710/my-store.git
 cd my-store
 ```
 
@@ -94,37 +96,37 @@ http://localhost:3000
 
 * Dynamic routing using Next.js App Router
 * Component-based architecture
-* Managing state with React hooks
+* Managing state using React hooks
 * Handling client-side storage (localStorage)
-* Building scalable folder structures
+* Structuring scalable frontend projects
 
 ---
 
-## ⚠️ Limitations (Future Improvements)
+## ⚠️ Limitations
 
-* No real backend/database yet
+* No backend/database integration
 * Authentication is not secure (demo only)
-* Payments are not integrated
+* No payment gateway integration
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
 * Backend integration (Supabase / Firebase)
-* Real authentication system
+* Secure authentication system
 * Stripe payment integration
 * Order history with database
 * Admin dashboard
 
 ---
 
-## 📌 Author
+## 👨‍💻 Author
 
 **Naitik Pingal**
-Aspiring Frontend Developer
+Frontend Developer (Learning & Building)
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a star on GitHub and feel free to fork it!
+If you like this project, consider giving it a ⭐ on GitHub!
